@@ -9,7 +9,7 @@ get '/show' do
   diary = {
       id: 1,
       title: "今日の日記",
-      content: "きょうは雨でした。"
+      content: "今日はGETメソッドを学んだ"
   }
 
   # diaryをJSONテキストに変換して返す
